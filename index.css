@@ -4,11 +4,11 @@
 
   --nav-bg: #d32f2f;            /* vermelho */
   --nav-link: #e0e0e0;
-  --nav-link-hover: #2a2a2a;    /* verde água */
+  --nav-link-hover: #000000;    /* verde água */
 
   --section-border: #e0e0e0;
 
-  --vagas-link: #2a2a2a;
+  --vagas-link: #000000;
   --vagas-border: #d32f2f;
 
   --btn-vaga-bg: #ffd54f;
@@ -18,9 +18,9 @@
   --btn-curso-hover: #d32f2f;
 
   --footer-bg: #d32f2f;
-  --footer-color: #2a2a2a; 
+  --footer-color: #000000; 
 
-  --link-priv: #2a2a2a;        /* amarelo */
+  --link-priv: #000000;        /* amarelo */
 }
 
 body {
@@ -243,7 +243,7 @@ body.escuro {
   --nav-link: #ffffff;
   --nav-link-hover: #00e6a8;
 
-  --section-border: #2a2a2a;
+  --section-border: #000000;
 
   --vagas-link: #ff8a80;
   --vagas-border: #ff8a80;
@@ -281,3 +281,4 @@ body.escuro {
   background-size: cover;
   background-position: center;
 }
+
