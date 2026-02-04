@@ -2,13 +2,12 @@
   --bg-color: #f7f8fa;
   --text-color: #2f2f2f;
 
-  --nav-bg: #d32f2f;            /* vermelho */
+  --nav-bg: #d32f2f;           
   --nav-link: #e0e0e0;
-  --nav-link-hover: #000000;    /* verde água */
-
+  --nav-link-hover: #2a2a2a;   
   --section-border: #e0e0e0;
 
-  --vagas-link: #000000;
+  --vagas-link: #2a2a2a;
   --vagas-border: #d32f2f;
 
   --btn-vaga-bg: #ffd54f;
@@ -18,9 +17,9 @@
   --btn-curso-hover: #d32f2f;
 
   --footer-bg: #d32f2f;
-  --footer-color: #000000; 
+  --footer-color: #2a2a2a; 
 
-  --link-priv: #000000;        /* amarelo */
+  --link-priv: #2a2a2a;        
 }
 
 body {
@@ -236,14 +235,14 @@ footer {
 }
 
 body.escuro {
-  --bg-color: #000000;
+  --bg-color: #121212;
   --text-color: #f2f2f2;
 
   --nav-bg: #b71c1c;
   --nav-link: #ffffff;
   --nav-link-hover: #00e6a8;
 
-  --section-border: #000000;
+  --section-border: #2a2a2a;
 
   --vagas-link: #ff8a80;
   --vagas-border: #ff8a80;
@@ -281,5 +280,4 @@ body.escuro {
   background-size: cover;
   background-position: center;
 }
-
 
