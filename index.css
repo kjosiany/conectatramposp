@@ -236,7 +236,7 @@ footer {
 }
 
 body.escuro {
-  --bg-color: #121212;
+  --bg-color: #000000;
   --text-color: #f2f2f2;
 
   --nav-bg: #b71c1c;
@@ -281,4 +281,5 @@ body.escuro {
   background-size: cover;
   background-position: center;
 }
+
 
