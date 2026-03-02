@@ -1,185 +1,242 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4275592395904487"
-     crossorigin="anonymous"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-D3PZTTSYED');
-</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ConectaTrampo SP</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="index.css" />
+  <title>ConectaTrampo SP | Vagas em São Paulo</title>
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4275592395904487" crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-D3PZTTSYED');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary: #d32f2f;    
+      --secondary: #ffd54f;    
+      --bg-light: #f7f8fa;
+      --text-dark: #2f2f2f;
+      --white: #ffffff;
+      --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      margin: 0; padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--white);
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img { max-width: 250px; }
+
+    nav {
+      background-color: var(--primary);
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+    .menu a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* INTRO */
+    .intro {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: var(--shadow);
+      border-left: 8px solid var(--primary);
+    }
+
+    /* SEÇÃO DE VAGAS */
+    h2 {
+      text-align: center;
+      color: var(--primary);
+      margin: 40px 0 25px;
+      font-weight: 600;
+    }
+
+    .vagas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 25px;
+    }
+
+    .vaga-card {
+      background: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      text-decoration: none;
+      color: var(--text-dark);
+      box-shadow: var(--shadow);
+      transition: transform 0.3s;
+      border: 1px solid #eee;
+    }
+    .vaga-card:hover {
+      transform: translateY(-8px);
+    }
+    .vaga-card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+    .vaga-card h3 {
+      font-size: 15px;
+      padding: 15px;
+      margin: 0;
+      color: var(--primary);
+    }
+
+    /* BOTÕES */
+    .btn-section {
+      text-align: center;
+      background: var(--white);
+      padding: 30px;
+      border-radius: 15px;
+      margin: 30px 0;
+      box-shadow: var(--shadow);
+    }
+    .btn-custom {
+      display: inline-block;
+      padding: 15px 35px;
+      background-color: var(--secondary);
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: all 0.3s;
+      box-shadow: 0 4px 10px rgba(255, 213, 79, 0.4);
+    }
+    .btn-custom:hover {
+      background-color: var(--primary);
+      color: var(--white);
+      transform: scale(1.05);
+    }
+
+    /* SOBRE NÓS */
+    #sobre-nos {
+      background: #f1f1f1;
+      padding: 40px;
+      border-radius: 15px;
+      margin-top: 40px;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: var(--white);
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 60px;
+      font-size: 13px;
+    }
+    footer a { color: var(--secondary); text-decoration: none; font-weight: bold; }
+
+    @media (max-width: 600px) {
+      .vagas-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+      .menu { gap: 10px; }
+      .menu a { font-size: 11px; }
+    }
+  </style>
 </head>
 <body>
-  <header class="center">
-    <img src="./img/ConectaTrampo.PNG" alt="Logo ConectaTrampo"class="logo"  />
+
+  <header>
+    <img src="./img/ConectaTrampo.PNG" alt="Logo ConectaTrampo" />
   </header>
 
   <nav>
     <div class="menu">
-      <a href="#divulgue">Divulgue sua Vaga</a>
+      <a href="#vagas">Vagas do Dia</a>
+      <a href="#divulgue">Divulgue Vaga</a>
       <a href="#especialize-se">Especialize-se</a>
       <a href="#sobre-nos">Sobre Nós</a>
-      <a href="#contato">Contato</a>
     </div>
   </nav>
 
   <div class="container">
-  <main>
     <section class="intro">
-    <p><strong>Bem-vindo ao ConectaTrampo SP!</strong> 🚀</p>
-<p>
-Somos um projeto independente e gratuito do ConectaTrampo, uma iniciativa que nasceu em Uberlândia – MG,
-passou por Belo Horizonte e agora chega a São Paulo para organizar e divulgar vagas de emprego publicadas
-em canais públicos da capital e região metropolitana.
-</p>
-<p>
-Nosso objetivo é facilitar o acesso às oportunidades, principalmente pra quem não tem tempo ou acesso fácil
-à informação. Todas as vagas são gratuitas e não temos vínculo com as empresas.
-</p>
-<p>📌 <strong>Especialize-se:</strong> Reunimos cursos, oficinas e iniciativas que ajudam na qualificação profissional —
-confira a aba “Especialize-se” para encontrar oportunidades de aprendizado.</p>
-<p>🤝 <strong>Quer divulgar uma vaga?</strong> Empresas e contratantes podem enviar vagas pela aba
-“Divulgue sua vaga”. A divulgação é 100% gratuita e voltada à comunidade local.</p>
+      <p><strong>Bem-vindo ao ConectaTrampo SP!</strong> 🚀</p>
+      <p>Somos um projeto independente do ConectaTrampo, trazendo a experiência de Uberlândia e BH para a <strong>Capital e Região Metropolitana de São Paulo</strong>. Organizamos vagas públicas para facilitar sua busca por emprego.</p>
+    </section>
 
-      <h2>Vagas De Emprego Em São Paulo E Região</h2>
-      <section class="vagas">
-       
-<a href="vagas05-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 05/02/2026</h3>
-        </a>
-<a href="vagas06-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 06/02/2026</h3> </a>
-<a href="vagas09-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 09/02/2026</h3>
-        </a>
-        <a href="vagas10-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 10/02/2026</h3>
-        </a>
-<a href="vagas11-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 11/02/2026</h3>
-        </a>
-<a href="vagas12-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 12/02/2026</h3>
-       </a>
-<a href="vagas13-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 13/02/2026</h3>
-        </a>
-        <a href="vagas18-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 18/02/2026</h3>
-        </a>
-        <a href="vagas19-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 19/02/2026</h3>
-        </a>
-            <a href="vagas20-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 20/02/2026</h3>
-        </a>
-           <a href="vagas23-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 23/02/2026</h3>
-        </a>
-           <a href="vagas24-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 24/02/2026</h3>
-        </a>
-            <a href="vagas25-02.html" target="_blank">
-          <img src="./img/carteiradetrabalho.jpeg" alt="vagas img" class="vagas-img" />
-          <h3 class="vagas-subtitulo">Vagas 25/02/2026</h3>
-        </a>
-</section>
-      <section id="divulgue">
-        <h2>Divulgue sua Vaga</h2>
-        <a href="https://forms.gle/wUnVvDEph2sdc2h48" target="_blank" class="btn-vaga">Divulgue sua Vaga📢</a>
-      </section>
+    <h2 id="vagas">Vagas em São Paulo e Região</h2>
+    
+    <div class="vagas-grid">
+      <a href="vagas05-02.html" class="vaga-card">
+        <img src="./img/carteiradetrabalho.jpeg" alt="Vagas">
+        <h3>Vagas 05/02/2026</h3>
+      </a>
+      <a href="vagas06-02.html" class="vaga-card">
+        <img src="./img/carteiradetrabalho.jpeg" alt="Vagas">
+        <h3>Vagas 06/02/2026</h3>
+      </a>
+      <a href="vagas25-02.html" class="vaga-card">
+        <img src="./img/carteiradetrabalho.jpeg" alt="Vagas">
+        <h3>Vagas 25/02/2026</h3>
+      </a>
+      </div>
 
-      <section id="especialize-se">
-        <h2>Especialize-se</h2>
-        <a href="formalize.html" target="_blank" class="botao-curso">Acessar os Cursos🎓</a>
-      </section>
+    <section id="divulgue" class="btn-section">
+      <h2>Divulgue sua Vaga</h2>
+      <p>Empresas podem anunciar gratuitamente para a comunidade local.</p>
+      <a href="https://forms.gle/wUnVvDEph2sdc2h48" target="_blank" class="btn-custom">Anunciar Vaga 📢</a>
+    </section>
 
-      <section id="sobre-nos">
-  <h2>Sobre Nós</h2>
-  <p>
-    <strong>O ConectaTrampo</strong> nasceu em Uberlândia – MG, uma das cidades que mais cresce no país,
-    com um mercado de trabalho forte, diverso e em constante movimento. Foi nesse cenário que surgiu
-    a ideia de organizar vagas públicas e torná-las acessíveis para quem realmente precisa.
-  </p>
-  <p>
-    O sucesso e a necessidade do projeto em Uberlândia mostraram que o modelo funcionava.
-    Assim, o ConectaTrampo se expandiu para Belo Horizonte, um dos maiores polos econômicos do Brasil,
-    conectando oportunidades da capital e da região metropolitana de forma gratuita, transparente
-    e sem qualquer vínculo com empresas.
-  </p>
-  <p>
-    Em Belo Horizonte, o <strong>ConectaTrampo BHE</strong> atua organizando e divulgando vagas publicadas
-    em canais públicos, além de cursos de qualificação profissional.
-    Nosso compromisso é facilitar o acesso à informação, fortalecer o mercado local e ampliar
-    as chances de quem busca uma colocação digna.
-  </p>
-</section>
+    <section id="especialize-se" class="btn-section">
+      <h2>Especialize-se</h2>
+      <p>Confira nossa seleção de cursos gratuitos com certificado.</p>
+      <a href="formalize.html" class="btn-custom">Ver Cursos 🎓</a>
+    </section>
 
+    <section id="sobre-nos">
+      <h2>Sobre Nós</h2>
+      <p>O <strong>ConectaTrampo</strong> nasceu em Minas Gerais e se tornou um elo entre trabalhadores e oportunidades. Em São Paulo, atuamos organizando vagas de canais públicos para ajudar quem busca recolocação no mercado de trabalho mais competitivo do Brasil.</p>
+    </section>
 
-      <section id="contato">
-        <h2>Contatos</h2>
-        <p>Email: <a href="mailto:contato@conectatrampoudi.com.br">contato@conectatrampoudi.com.br</a></p>
-       <p>
- As vagas também são divulgadas em nossos grupos oficiais:
-<br>
- <a href="https://chat.whatsapp.com/GsA1bEbz5f9E8knsaGo6q7" target="_blank" rel="noopener">
-Entrar no grupo do WhatsApp
-</a>
-</p>
-</div>
-      </section>
-    </main>
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>E-mail: <strong>contato@conectatrampoudi.com.br</strong></p>
+      <p>Participe do nosso grupo de SP: <a href="https://chat.whatsapp.com/GsA1bEbz5f9E8knsaGo6q7" target="_blank">Entrar no WhatsApp</a></p>
+    </section>
   </div>
 
   <footer>
     <div class="footer-content">
-      <p>© 2026 — Todos os direitos reservados.</p>
-      Este site apenas organiza e divulga vagas de emprego já publicadas em canais públicos de Uberlândia.<br>
-        Não cobramos pela divulgação nem temos vínculo direto com as empresas listadas.<br>
-        Caso alguma empresa deseje remover ou alterar uma vaga publicada, entre em contato.
-      <a class="link-priv" href="privacidade.html" target="_blank">Política de Privacidade</a>
+      <p>© 2026 — ConectaTrampo SP | <a href="privacidade.html">Política de Privacidade</a></p>
+      <p>Organizamos vagas públicas de forma gratuita. Não temos vínculo com as empresas.</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
