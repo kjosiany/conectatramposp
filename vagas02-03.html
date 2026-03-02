@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vagas 01/03/2026 | ConectaTrampo SP</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  
+  <style>
+    :root {
+      --primary: #d32f2f;      
+      --primary-dark: #8e0000; 
+      --secondary: #ffd54f;   
+      --bg: #f4f7f6;
+      --text: #333;
+      --white: #ffffff;
+      --shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0; padding: 0;
+      line-height: 1.6;
+    }
+
+    /* HEADER IMPACTANTE (CORRIGIDO) */
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header img { 
+      max-width: 220px; 
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); /* Dá destaque à logo */
+      margin-bottom: 15px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .search-container {
+      margin-top: -30px; 
+      position: relative;
+      z-index: 10;
+    }
+
+    #busca-vagas {
+      width: 100%;
+      padding: 18px 25px;
+      border-radius: 50px;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--primary-dark);
+      margin: 40px 0 20px;
+      font-weight: 600;
+    }
+
+    .aviso-box {
+      background-color: var(--secondary);
+      border-left: 5px solid var(--primary);
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .vaga-card {
+      background: var(--white);
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: var(--shadow);
+      border: 1px solid #eee;
+    }
+
+    .vaga-card h3 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+    }
+
+    .vaga-info p { margin: 8px 0; font-size: 0.95rem; }
+    
+    .btn-contato {
+      display: inline-block;
+      margin-top: 15px;
+      background: var(--primary);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+
+    .btn-contato:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #999;
+      padding: 50px 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-top: 60px;
+    }
+
+    .btn-voltar {
+      display: inline-block;
+      margin: 20px 0;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 30px 15px; }
+      header img { max-width: 180px; }
+      #busca-vagas { padding: 15px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="./img/ConectaTrampo.PNG" alt="Logo ConectaTrampo" />
+    <p>Oportunidades em São Paulo</p>
+  </header>
+
+  <main class="container">
+    <div class="search-container">
+      <input type="text" id="busca-vagas" placeholder="🔍 Qual vaga você busca hoje?">
+    </div>
+
+    <a href="index.html" class="btn-voltar">← Voltar para o Início</a>
+
+    <h2>📋 Vagas Atualizadas - 02/03/2026</h2>
+
+    <section class="aviso-box">
+      <strong>🚨 CUIDADO:</strong> O ConectaTrampo SP não cobra taxas. Se alguém pedir dinheiro para exames ou uniformes, é golpe! <strong>Denuncie.</strong>
+    </section>
+
+    <div id="lista-vagas">
+      
+        <div class="vaga-card">
+  <h3>Ajudante de Cozinha Noturno</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Don Marchê</p>
+    <p><strong>Salário:</strong> R$ 1.933,20 + Adicional Noturno</p>
+    <p><strong>Benefícios:</strong> VA (R$ 290,00), Alimentação no local e Plano de Saúde.</p>
+    <p><strong>Local:</strong> São Paulo - Zona Leste</p>
+    <a href="https://wa.me/5511943509629" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Produção / Limpeza</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> GMS Facilities Services</p>
+    <p><strong>Salário:</strong> R$ 2.170,00 a R$ 2.500,00</p>
+    <p><strong>Benefícios:</strong> Vale Transporte.</p>
+    <p><strong>Local:</strong> São Caetano do Sul - SP</p>
+    <a href="https://wa.me/5511937292323" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Garçom / Auxiliar de Cozinha</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Villa Polidoro Trattoria</p>
+    <p><strong>Salário:</strong> A combinar</p>
+    <p><strong>Benefícios:</strong> Períodos diurno e noturno disponíveis.</p>
+    <p><strong>Local:</strong> Centro - São Caetano do Sul - SP</p>
+    <a href="https://wa.me/5511932358487" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Limpeza</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Colégio Caminhar</p>
+    <p><strong>Salário:</strong> Não informado</p>
+    <p><strong>Benefícios:</strong> Requer residir em Santo André.</p>
+    <p><strong>Local:</strong> Santo André - SP</p>
+    <a href="mailto:trabalhenocolegiocaminhar@gmail.com" target="_blank" class="btn-contato">Enviar Currículo por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Consultor(a) de Vendas</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> SMK Soluções Financeiras</p>
+    <p><strong>Salário:</strong> R$ 1.621,00 + Comissões sem teto</p>
+    <p><strong>Benefícios:</strong> VT, VR, Telemedicina e Plano de Crescimento.</p>
+    <p><strong>Local:</strong> Vila Bastos - Santo André - SP</p>
+    <a href="https://wa.me/5511976805147" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Aux. Limpeza / Ajudante Geral / Vidreiro</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Grupo Paineiras</p>
+    <p><strong>Salário:</strong> R$ 1.837,40</p>
+    <p><strong>Benefícios:</strong> VT, VR (R$ 21,80/dia), VA (R$ 151,91) e Prêmio Assiduidade.</p>
+    <p><strong>Local:</strong> Barra Funda - São Paulo - SP</p>
+    <a href="https://wa.me/5511992143051" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Entregador</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> São Geraldo Tintas</p>
+    <p><strong>Salário:</strong> Não informado</p>
+    <p><strong>Benefícios:</strong> Ótima oportunidade.</p>
+    <p><strong>Local:</strong> São Paulo - SP</p>
+    <a href="mailto:gerente.saopaulo@saogeraldotintas.com.br" target="_blank" class="btn-contato">Enviar Currículo por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Assistente / Analista de RH</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Umbrella Talent</p>
+    <p><strong>Salário:</strong> De R$ 3.500,00 a R$ 5.500,00</p>
+    <p><strong>Benefícios:</strong> Regime CLT + Benefícios.</p>
+    <p><strong>Local:</strong> Anhangabaú - São Paulo - SP</p>
+    <a href="mailto:samuel.santos@umbrellatalent.com" target="_blank" class="btn-contato">Candidatar por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Analista de DP Pleno/Sênior</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Umbrella Talent</p>
+    <p><strong>Salário:</strong> R$ 7.000,00</p>
+    <p><strong>Benefícios:</strong> Regime CLT + Benefícios (Necessário sistema ADP).</p>
+    <p><strong>Local:</strong> Morumbi - São Paulo - SP</p>
+    <a href="mailto:samuel.santos@umbrellatalent.com" target="_blank" class="btn-contato">Candidatar por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Analista de Folha de Pagamento Júnior</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada</p>
+    <p><strong>Salário:</strong> CLT (A combinar)</p>
+    <p><strong>Benefícios:</strong> VR/VA (+R$1mil), PPR, Plano Médico/Odonto, Auxílio Home Office.</p>
+    <p><strong>Local:</strong> 100% Home Office</p>
+    <a href="https://lnkd.in/d-8u9AJC" target="_blank" class="btn-contato">Ver Detalhes / Candidatar</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Advisor I - Customer Service (E-commerce)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> CB Talents</p>
+    <p><strong>Salário:</strong> R$ 2.100,00</p>
+    <p><strong>Benefícios:</strong> VA/VR, VT, Plano de Saúde/Odonto e Aux. Creche.</p>
+    <p><strong>Local:</strong> Barra Funda - SP (Presencial)</p>
+    <a href="https://wa.me/5549991680556" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Fiscal de Linha de Transmissão</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> KMA Engenharia</p>
+    <p><strong>Salário:</strong> R$ 2.664,75 + 30% Periculosidade</p>
+    <p><strong>Benefícios:</strong> VR, VT, Assistência Médica e Cesta Básica.</p>
+    <p><strong>Local:</strong> São Paulo (Atuação em campo)</p>
+    <a href="https://wa.me/5513998053494" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Pedreiro</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> KMA Engenharia</p>
+    <p><strong>Salário:</strong> R$ 2.664,75</p>
+    <p><strong>Benefícios:</strong> VR, VT, Bônus Produtividade, Assistência Médica e Cesta Básica.</p>
+    <p><strong>Local:</strong> Diversas Regiões (SP) / Alojamento</p>
+    <a href="https://wa.me/5513996701465" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Ajudante de Pedreiro</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> KMA Engenharia</p>
+    <p><strong>Salário:</strong> R$ 2.189,97</p>
+    <p><strong>Benefícios:</strong> VR, VT, Bônus Produtividade, Assistência Médica e Cesta Básica.</p>
+    <p><strong>Local:</strong> Diversas Regiões (SP) / Alojamento</p>
+    <a href="https://wa.me/5513998053494" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+      <div class="vaga-card">
+        <h3>Auxiliar de Lavanderia</h3>
+        <div class="vaga-info">
+          <p><strong>Empresa:</strong> Grupo Superbranco</p>
+          <p><strong>Salário:</strong> R$ 2.000,00</p>
+          <p><strong>Benefícios:</strong> VT, VA e Telemedicina.</p>
+          <p><strong>Local:</strong> São Paulo - SP</p>
+          
+          <a href="https://encurtador.com.br/uFBl" target="_blank" class="btn-contato">Ver Detalhes / Candidatar</a>
+        </div>
+     
+<div class="vaga-card">
+  <h3>Manicure Parceira (PJ)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Unhas Cariocas</p>
+    <p><strong>Salário:</strong> Regime de Parceria - PJ</p>
+    <p><strong>Benefícios:</strong> Atuação em Shopping, marca consolidada.</p>
+    <p><strong>Local:</strong> Shopping Center Norte - São Paulo - SP</p>
+    <a href="https://wa.me/5511973632927" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Escritório</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Colégio OBJETIVO SK</p>
+    <p><strong>Salário:</strong> Compatível com a função</p>
+    <p><strong>Benefícios:</strong> Benefícios inclusos + Proximidade com Metrô Conceição.</p>
+    <p><strong>Local:</strong> Zona Sul (Próximo à Estação Conceição) - SP</p>
+    <a href="https://wa.me/5511944685765" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Limpeza</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Shopping Frei Caneca (Supervisão Day)</p>
+    <p><strong>Salário:</strong> R$ 1.837,40</p>
+    <p><strong>Benefícios:</strong> VR (R$ 21,80/dia), VA (R$ 151,91), Cesta Básica (até R$ 315) e VT.</p>
+    <p><strong>Local:</strong> Shopping Frei Caneca - São Paulo - SP</p>
+    <a href="https://wa.me/5511913200571" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Técnico de Segurança (Temporário)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Lufe Consultoria RH</p>
+    <p><strong>Salário:</strong> Fixo (A combinar)</p>
+    <p><strong>Benefícios:</strong> Passagem e Alimentação.</p>
+    <p><strong>Local:</strong> Interlagos - São Paulo - SP</p>
+    <a href="mailto:lufeconsultoriarh@gmail.com" target="_blank" class="btn-contato">Enviar Currículo por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Aux. Cozinha / Serviços Gerais / Lava Louças</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Prime Coffee - Padaria Artesanal</p>
+    <p><strong>Salário:</strong> Não informado</p>
+    <p><strong>Benefícios:</strong> Próximo ao Metrô Carrão.</p>
+    <p><strong>Local:</strong> Tatuapé - São Paulo - SP</p>
+    <a href="https://wa.me/5511949125142" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+
+<div class="vaga-card">
+  <h3>Estágio Comercial</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> MEPCRED</p>
+    <p><strong>Salário:</strong> Bolsa auxílio de R$ 700,00 fixo + Bônus</p>
+    <p><strong>Benefícios:</strong> Premiações e Ajuda de custo de R$ 18,80 por dia.</p>
+    <p><strong>Local:</strong> Carrão - São Paulo - SP</p>
+    <a href="https://wa.me/5511910732050" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Estágio em Marketing | SPO-2026-24968</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada</p>
+    <p><strong>Salário:</strong> Bolsa auxílio: R$ 1.200,00</p>
+    <p><strong>Benefícios:</strong> Vale Transporte e Acompanhamento psicológico.</p>
+    <p><strong>Local:</strong> Itaquera – Zona Leste - SP</p>
+    <a href="https://wa.me/5511932253491" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Produção (1º Emprego)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Extra Consult</p>
+    <p><strong>Salário:</strong> R$ 9,69/hora (Aprox. R$ 2.131,80/mês)</p>
+    <p><strong>Benefícios:</strong> VT, Cesta Básica, Desjejum e Seguro de Vida.</p>
+    <p><strong>Local:</strong> Mooca – Zona Leste / São Paulo</p>
+    <a href="https://wa.me/5511939052833" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Técnico de Manutenção</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> C&A (Centro de Distribuição)</p>
+    <p><strong>Salário:</strong> Não informado</p>
+    <p><strong>Benefícios:</strong> Fretado, Refeição no local, GymPass e PLR.</p>
+    <p><strong>Local:</strong> Rodovia Raposo Tavares, Km 20,6 – SP</p>
+    <a href="https://ceabrasil.pandape.infojobs.com.br/Detail?id=3053114" target="_blank" class="btn-contato">Ver Detalhes / Candidatar</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Ajudante Geral de Estoque</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada (Recrutadora Kemmyle)</p>
+    <p><strong>Salário:</strong> R$ 2.169,00</p>
+    <p><strong>Benefícios:</strong> VT, Refeição e Plano de Carreira após efetivação.</p>
+    <p><strong>Local:</strong> Região do Ipiranga – SP</p>
+    <a href="https://wa.me/5511942168497" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Operador de Telemarketing Ativo</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada</p>
+    <p><strong>Salário:</strong> R$ 1.740,10 + Benefícios</p>
+    <p><strong>Benefícios:</strong> Atuação presencial de segunda a sexta.</p>
+    <p><strong>Local:</strong> Bom Retiro – São Paulo - SP</p>
+    <a href="https://wa.me/551132256270" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Limpeza</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Stand de Vendas Imobiliário</p>
+    <p><strong>Salário:</strong> R$ 1.837,40</p>
+    <p><strong>Benefícios:</strong> VR (R$ 21,80), VA (R$ 151,91) e Prêmio Assiduidade.</p>
+    <p><strong>Local:</strong> Tucuruvi – São Paulo - SP</p>
+    <a href="https://wa.me/5511947526428" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Assistente de Limpeza e Copa (Feminino)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Autopeças (Mikael)</p>
+    <p><strong>Salário:</strong> R$ 2.252,00</p>
+    <p><strong>Benefícios:</strong> VT e Refeição no local.</p>
+    <p><strong>Local:</strong> Vila Maria Baixa – Zona Norte - SP</p>
+    <a href="https://wa.me/5511922208871" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Analista de Relacionamento Jr. (Vendas)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Cruzeiro do Sul</p>
+    <p><strong>Salário:</strong> R$ 2.314,00 + Ajuda de Custo (R$ 1.000)</p>
+    <p><strong>Benefícios:</strong> Bolsas de Estudo integrais e Plano de Saúde.</p>
+    <p><strong>Local:</strong> Sto. Amaro / S. Miguel / Anália Franco</p>
+    <a href="https://wa.me/5521994588929" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Motoboy (CLT Efetivo)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada (Falar com Milene)</p>
+    <p><strong>Salário:</strong> R$ 4.600,00</p>
+    <p><strong>Benefícios:</strong> VR, Refeição no local e Convênio com postos.</p>
+    <p><strong>Local:</strong> Moema – São Paulo - SP</p>
+    <a href="https://wa.me/5511959162242" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Manutenção Predial</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Globomaster</p>
+    <p><strong>Salário:</strong> Compatível com o mercado</p>
+    <p><strong>Benefícios:</strong> Manutenção predial em condomínio.</p>
+    <p><strong>Local:</strong> Zona Leste – Próximo ao Metrô Carrão</p>
+    <p><strong>Ação:</strong> Comparecer dia 27/02 das 08h às 11h na Rua Tijuco Preto, 1030.</p>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>1/2 Oficial Operador de Máquina C</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada (Recrutadora Kemmyle)</p>
+    <p><strong>Salário:</strong> R$ 2.864,40</p>
+    <p><strong>Benefícios:</strong> Cesta Básica, Convênio Médico e Odontológico.</p>
+    <p><strong>Local:</strong> Parque da Mooca – São Paulo - SP</p>
+    <a href="https://wa.me/5511942168497" target="_blank" class="btn-contato">Candidatar via WhatsApp (Código 4159)</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Estágio Comercial</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> MEPCRED</p>
+    <p><strong>Salário:</strong> Bolsa auxílio de R$ 700,00 fixo + Bônus</p>
+    <p><strong>Benefícios:</strong> Premiações e Ajuda de custo de R$ 18,80 por dia.</p>
+    <p><strong>Local:</strong> Carrão - São Paulo - SP</p>
+    <a href="https://wa.me/5511910732050" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Executiva de Vendas</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Iniciativa Recursos Humanos</p>
+    <p><strong>Salário:</strong> A combinar</p>
+    <p><strong>Benefícios:</strong> Requer domínio de SPIN Selling e LinkedIn Sales Navigator.</p>
+    <p><strong>Local:</strong> Barueri / São Paulo</p>
+    <a href="mailto:iniciativarh@iniciativa.com.br" target="_blank" class="btn-contato">Enviar Currículo por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>CRC (Central de Relacionamento com o Cliente)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Clínica Odontológica (Pirituba)</p>
+    <p><strong>Salário:</strong> Salário Fixo + Comissão</p>
+    <p><strong>Benefícios:</strong> Vale-transporte.</p>
+    <p><strong>Local:</strong> Pirituba - Zona Oeste - SP</p>
+    <a href="https://wa.me/5511947698762" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Produção (Primeiro Emprego)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Extra Consult (Barbara)</p>
+    <p><strong>Salário:</strong> R$ 9,69/hora (Aprox. R$ 2.131,80/mês)</p>
+    <p><strong>Benefícios:</strong> VT, Cesta Básica, Desjejum, Seguro de Vida e Refeitório.</p>
+    <p><strong>Local:</strong> Mooca – Zona Leste - SP</p>
+    <a href="https://wa.me/5511939052833" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Técnico de Manutenção</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> C&A (Centro de Distribuição)</p>
+    <p><strong>Salário:</strong> A combinar</p>
+    <p><strong>Benefícios:</strong> Refeição, Fretado, PLR, GymPass e Descontos C&A.</p>
+    <p><strong>Local:</strong> Rodovia Raposo Tavares, Km 20,6 – SP</p>
+    <a href="https://ceabrasil.pandape.infojobs.com.br/Detail?id=3053114" target="_blank" class="btn-contato">Ver Detalhes / Candidatar</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Ajudante Geral de Estoque</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada (Recrutadora Kemmyle)</p>
+    <p><strong>Salário:</strong> R$ 2.169,00</p>
+    <p><strong>Benefícios:</strong> VT, Refeição e Plano de Carreira (pós-efetivação).</p>
+    <p><strong>Local:</strong> Região do Ipiranga – SP</p>
+    <a href="https://wa.me/5511942168497" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Operador de Telemarketing (Urgente)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada</p>
+    <p><strong>Salário:</strong> R$ 1.740,10 + Benefícios</p>
+    <p><strong>Benefícios:</strong> Horário das 08h às 14h (Segunda a Sexta).</p>
+    <p><strong>Local:</strong> Bom Retiro – São Paulo - SP</p>
+    <a href="https://wa.me/551132256270" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Limpeza (Stand de Vendas)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Stand Imobiliário</p>
+    <p><strong>Salário:</strong> R$ 1.837,40</p>
+    <p><strong>Benefícios:</strong> VR (R$ 21,80), VA (R$ 151,91) e Prêmio Assiduidade (R$ 315,00).</p>
+    <p><strong>Local:</strong> Tucuruvi – São Paulo - SP</p>
+    <a href="https://wa.me/5511947526428" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Assistente de Limpeza e Copa (Feminino)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Empresa de Autopeças (Mikael)</p>
+    <p><strong>Salário:</strong> R$ 2.252,00</p>
+    <p><strong>Benefícios:</strong> VT + Refeição no local.</p>
+    <p><strong>Local:</strong> Vila Maria Baixa – Zona Norte - SP</p>
+    <a href="https://wa.me/5511922208871" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Analista de Relacionamento Jr. (Vendas Externas)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Cruzeiro do Sul</p>
+    <p><strong>Salário:</strong> R$ 2.314,00 + Ajuda de Custo (R$ 1.000,00)</p>
+    <p><strong>Benefícios:</strong> Plano de Saúde/Odonto e 2 bolsas de estudo integrais.</p>
+    <p><strong>Local:</strong> Sto. Amaro / S. Miguel / Anália Franco</p>
+    <a href="https://wa.me/5521994588929" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Motoboy (CLT Efetivo)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada (Milene)</p>
+    <p><strong>Salário:</strong> R$ 4.600,00</p>
+    <p><strong>Benefícios:</strong> VR, Refeição no local e Convênios (autopeças/posto).</p>
+    <p><strong>Local:</strong> Moema – São Paulo - SP</p>
+    <a href="https://wa.me/5511959162242" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Manutenção Predial</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Globomaster</p>
+    <p><strong>Salário:</strong> Compatível + Benefícios</p>
+    <p><strong>Benefícios:</strong> Reparos elétricos/hidráulicos e preventivos.</p>
+    <p><strong>Local:</strong> Zona Leste - SP (Próximo ao Metrô Carrão)</p>
+    <p><strong>Ação:</strong> Comparecer 27/02 (08h às 11h) na Rua Tijuco Preto, 1030.</p>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>1/2 Oficial Operador de Máquina C</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada (Recrutadora Kemmyle)</p>
+    <p><strong>Salário:</strong> R$ 2.864,40</p>
+    <p><strong>Benefícios:</strong> Cesta básica, Convênio médico e odontológico.</p>
+    <p><strong>Local:</strong> Parque da Mooca – São Paulo - SP</p>
+    <a href="https://wa.me/5511942168497" target="_blank" class="btn-contato">Candidatar via WhatsApp (Cód. 4159)</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Serviços Gerais (Masculino)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Não informada</p>
+    <p><strong>Salário:</strong> R$ 2.204,88 + R$ 315,00 (Bônus Assiduidade)</p>
+    <p><strong>Benefícios:</strong> VT, VR (R$ 21,80/dia) e VA (R$ 151,91).</p>
+    <p><strong>Local:</strong> Guarulhos - SP</p>
+    <a href="https://wa.me/5511972633003" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Ajudante de Cozinha Noturno</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Don Marchê</p>
+    <p><strong>Salário:</strong> R$ 1.933,20 + Adicional Noturno</p>
+    <p><strong>Benefícios:</strong> VA (R$ 290,00), Alimentação no local e Plano de Saúde.</p>
+    <p><strong>Local:</strong> Zona Leste - SP</p>
+    <p><strong>Destaque:</strong> 50+ são super bem-vindos.</p>
+    <a href="https://wa.me/5511943509629" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Produção / Limpeza</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> GMS Facilities Services</p>
+    <p><strong>Salário:</strong> De R$ 2.170,00 a R$ 2.500,00 + VT</p>
+    <p><strong>Contrato:</strong> Temporário com chances de efetivação.</p>
+    <p><strong>Local:</strong> São Caetano do Sul - SP</p>
+    <a href="https://wa.me/5511937292323" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Garçom / Auxiliar de Cozinha</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Villa Polidoro Trattoria</p>
+    <p><strong>Salário:</strong> A combinar</p>
+    <p><strong>Requisito:</strong> Com experiência; períodos diurno e noturno.</p>
+    <p><strong>Local:</strong> Centro - São Caetano do Sul - SP</p>
+    <a href="https://wa.me/5511932358487" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Auxiliar de Limpeza</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Colégio Caminhar</p>
+    <p><strong>Requisitos:</strong> Experiência anterior e residir em Santo André.</p>
+    <p><strong>Escolaridade:</strong> Desejável Ensino Médio completo.</p>
+    <p><strong>Local:</strong> Santo André - SP</p>
+    <a href="mailto:trabalhenocolegiocaminhar@gmail.com" target="_blank" class="btn-contato">Enviar Currículo por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Consultor(a) de Vendas</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> SMK Soluções Financeiras</p>
+    <p><strong>Salário:</strong> R$ 1.621,00 + Comissões sem teto</p>
+    <p><strong>Benefícios:</strong> VR, VT, Telemedicina e Plano de Crescimento.</p>
+    <p><strong>Local:</strong> Vila Bastos - Santo André - SP</p>
+    <a href="https://wa.me/5511976805147" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Aux. Limpeza / Ajudante Geral / Limpador de Vidros</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Grupo Paineiras</p>
+    <p><strong>Salário:</strong> R$ 1.837,40</p>
+    <p><strong>Benefícios:</strong> VT, VR (R$ 21,80), VA (R$ 151,91) e Prêmio Assiduidade (R$ 315,00).</p>
+    <p><strong>Local:</strong> Barra Funda - SP</p>
+    <p><strong>Observação:</strong> Vagas também para PCD.</p>
+    <a href="https://wa.me/5511992143051" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Entregador</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> São Geraldo Tintas</p>
+    <p><strong>Ação:</strong> Enviar currículo ou escanear QR Code.</p>
+    <p><strong>Local:</strong> São Paulo - SP</p>
+    <a href="mailto:gerente.saopaulo@saogeraldotintas.com.br" target="_blank" class="btn-contato">Enviar Currículo por E-mail</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Estágio de Cobrança (1º Emprego)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Localcred</p>
+    <p><strong>Salário:</strong> Bolsa de R$ 1.000,00 + Ajuda de custo R$ 200,00</p>
+    <p><strong>Requisito:</strong> Estudantes a partir de 16 anos (Ensino Médio).</p>
+    <p><strong>Local:</strong> República (Próximo ao Metrô) - SP</p>
+    <a href="https://wa.me/5511992082787" target="_blank" class="btn-contato">Agendar Entrevista via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Recuperador(a) de Crédito</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Localcred</p>
+    <p><strong>Salário:</strong> R$ 1.630,00 + Variável agressiva sem teto</p>
+    <p><strong>Benefícios:</strong> VR, VT, Convênio Médico/Odonto e Auxílio Creche.</p>
+    <p><strong>Local:</strong> República - Centro - SP</p>
+    <a href="https://wa.me/5511992082787" target="_blank" class="btn-contato">Agendar Entrevista via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Estágio Médio Administração</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Baú dos Doces e Biscoitos (ISBET)</p>
+    <p><strong>Salário:</strong> R$ 1.000,00</p>
+    <p><strong>Horário:</strong> 09h às 15h30</p>
+    <p><strong>Local:</strong> Planalto Paulista - SP</p>
+    <a href="https://wa.me/5511932253491" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+<div class="vaga-card">
+  <h3>Estágio em Recursos Humanos (Presencial)</h3>
+  <div class="vaga-info">
+    <p><strong>Empresa:</strong> Restaurante (Shopping Cidade São Paulo)</p>
+    <p><strong>Salário:</strong> Bolsa auxílio R$ 1.000,00</p>
+    <p><strong>Benefícios:</strong> Almoço no local e aprendizado prático em RH/DP.</p>
+    <p><strong>Local:</strong> Av. Paulista (Metrô Trianon-Masp) - SP</p>
+    <p><strong>Perfil:</strong> 16 a 23 anos; cursando Médio, Técnico ou Superior em RH/Adm.</p>
+    <a href="https://wa.me/5511990152153" target="_blank" class="btn-contato">Candidatar via WhatsApp</a>
+  </div>
+</div>
+
+      </div>
+  </main>
+
+  <footer>
+    <p>© 2026 ConectaTrampo SP<br>
+    Organizando as melhores oportunidades da capital e região metropolitana.</p>
+  </footer>
+
+  <script>
+    const inputBusca = document.getElementById("busca-vagas");
+    inputBusca.addEventListener("input", () => {
+      const termo = inputBusca.value.toLowerCase();
+      const vagas = document.querySelectorAll(".vaga-card");
+      vagas.forEach(vaga => {
+        vaga.style.display = vaga.textContent.toLowerCase().includes(termo) ? "block" : "none";
+      });
+    });
+  </script>
+
+</body>
+</html>
