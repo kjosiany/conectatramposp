@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vagas 01/03/2026 | ConectaTrampo SP</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  
+  <style>
+    :root {
+      --primary: #d32f2f;      
+      --primary-dark: #8e0000; 
+      --secondary: #ffd54f;   
+      --bg: #f4f7f6;
+      --text: #333;
+      --white: #ffffff;
+      --shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0; padding: 0;
+      line-height: 1.6;
+    }
+
+    /* HEADER IMPACTANTE (CORRIGIDO) */
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header img { 
+      max-width: 220px; 
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); /* Dá destaque à logo */
+      margin-bottom: 15px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .search-container {
+      margin-top: -30px; 
+      position: relative;
+      z-index: 10;
+    }
+
+    #busca-vagas {
+      width: 100%;
+      padding: 18px 25px;
+      border-radius: 50px;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--primary-dark);
+      margin: 40px 0 20px;
+      font-weight: 600;
+    }
+
+    .aviso-box {
+      background-color: var(--secondary);
+      border-left: 5px solid var(--primary);
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .vaga-card {
+      background: var(--white);
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: var(--shadow);
+      border: 1px solid #eee;
+    }
+
+    .vaga-card h3 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+    }
+
+    .vaga-info p { margin: 8px 0; font-size: 0.95rem; }
+    
+    .btn-contato {
+      display: inline-block;
+      margin-top: 15px;
+      background: var(--primary);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+
+    .btn-contato:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #999;
+      padding: 50px 20px;
+      text-align: center;
+      font-size: 13px;
+      margin-top: 60px;
+    }
+
+    .btn-voltar {
+      display: inline-block;
+      margin: 20px 0;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 30px 15px; }
+      header img { max-width: 180px; }
+      #busca-vagas { padding: 15px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="./img/ConectaTrampo.PNG" alt="Logo ConectaTrampo" />
+    <p>Oportunidades em São Paulo</p>
+  </header>
+
+  <main class="container">
+    <div class="search-container">
+      <input type="text" id="busca-vagas" placeholder="🔍 Qual vaga você busca hoje?">
+    </div>
+
+    <a href="index.html" class="btn-voltar">← Voltar para o Início</a>
+
+    <h2>📋 Vagas Atualizadas - 02/03/2026</h2>
+
+    <section class="aviso-box">
+      <strong>🚨 CUIDADO:</strong> O ConectaTrampo SP não cobra taxas. Se alguém pedir dinheiro para exames ou uniformes, é golpe! <strong>Denuncie.</strong>
+    </section>
+
+    <div id="lista-vagas">
+      
+<div class="vaga">
+  <h3><strong>Estágio em Matemática</strong></h3>
+  <p><strong>Empresa:</strong> Job Finders RH</p>
+  <p><strong>Descrição da vaga:</strong> Oportunidade para estudantes da área. Requisito: Estar cursando graduação em Matemática.</p>
+  <p><strong>Salário:</strong> R$ 1.200,00 (Bolsa auxílio).</p>
+  <p><strong>Horário:</strong> 14h às 18h.</p>
+  <p><strong>Local:</strong> Campo Belo - Zona Sul, SP</p>
+  <p><strong>Benefícios:</strong> Vale Transporte.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511966206979?text=Tenho%20interesse%20na%20vaga%20de%20Estágio%20em%20Matemática" target="_blank">+55 11 96620-6979</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar bom desempenho acadêmico e facilidade didática para lidar com o público.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar Operacional</strong></h3>
+  <p><strong>Empresa:</strong> Polly Service (Logística de grande porte)</p>
+  <p><strong>Descrição da vaga:</strong> Atuar com separação, conferência, movimentação de mercadorias e abastecimento de linhas. Vagas para residentes próximos da Lapa ou que utilizem apenas uma condução.</p>
+  <p><strong>Salário:</strong> R$ 2.151,00</p>
+  <p><strong>Horário:</strong> 10h00 às 18h20 (Escala 6x1 - Folgas alternadas).</p>
+  <p><strong>Local:</strong> Vila Anastácio (Lapa), SP</p>
+  <p><strong>Benefícios:</strong> Refeição no local, VR R$ 253,00 (cartão Ifood) e Vale Transporte.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511994823220?text=Tenho%20interesse%20na%20vaga%20de%20Auxiliar%20Operacional" target="_blank">+55 11 99482-3220</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Ter experiência prévia em centros logísticos e disponibilidade para trabalhar em escala 6x1.
+  </div>
+</div>
+      
+<div class="vaga">
+  <h3><strong>Atendente de Loja</strong></h3>
+  <p><strong>Empresa:</strong> Milky Moo</p>
+  <p><strong>Descrição da vaga:</strong> Atendimento ao público em sorveteria/milkshake. Necessário ensino médio completo, informática básica e boa comunicação.</p>
+  <p><strong>Salário:</strong> Superior a R$ 2.300,00 (Salário + benefícios).</p>
+  <p><strong>Horário:</strong> 15h10 às 23h30 (Escala 6x1).</p>
+  <p><strong>Local:</strong> Pinheiros, Santana ou Vila Sônia, SP</p>
+  <p><strong>Benefícios:</strong> Seguro de vida e Plano de carreira.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511956023735?text=Tenho%20interesse%20na%20vaga%20de%20Atendente%20de%20Loja" target="_blank">+55 11 95602-3735 (Cristiane)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar pontualidade, organização e facilidade em trabalhar em equipe.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Controlador de Acesso (Noturno e Diurno)</strong></h3>
+  <p><strong>Empresa:</strong> Grupo Red</p>
+  <p><strong>Descrição da vaga:</strong> Necessário experiência na área, curso de reciclagem em dia e vivência com portaria informatizada. Início imediato.</p>
+  <p><strong>Salário:</strong> R$ 2.160,00 + Bônus Assiduidade R$ 300,00 + 20% adicional noturno (se aplicável).</p>
+  <p><strong>Horário:</strong> Turnos diurnos e noturnos a definir.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> VT, VR (R$ 21,80/dia) e VA (R$ 151,00/mês).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511976211434?text=Tenho%20interesse%20na%20vaga%20de%20Controlador%20de%20Acesso" target="_blank">+55 11 97621-1434 (Gustavo)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Enviar currículo em PDF e destacar cursos de especialização em segurança ou atendimento.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Professor(a) de Musculação</strong></h3>
+  <p><strong>Empresa:</strong> Tênis Clube Paulista</p>
+  <p><strong>Descrição da vaga:</strong> Atuar na área de musculação do clube. Necessário poder emitir nota fiscal (Contrato PJ).</p>
+  <p><strong>Salário:</strong> A combinar.</p>
+  <p><strong>Horário:</strong> 17h às 22h15 e finais de semana por escala de revezamento.</p>
+  <p><strong>Local:</strong> Aclimação, SP</p>
+  <p><strong>Benefícios:</strong> Auxílio VT (R$ 10,40/dia) e Bolsa 100% em cursos da World Top Trainers e Universidade do Movimento.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511959994110?text=Tenho%20interesse%20na%20vaga%20de%20Professor%20de%20Musculação" target="_blank">+55 11 95999-4110 (Juliana)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar interesse em educação continuada, aproveitando os benefícios de cursos oferecidos pela empresa.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Empacotamento</strong></h3>
+  <p><strong>Empresa:</strong> Almanara</p>
+  <p><strong>Descrição da vaga:</strong> Venha fazer parte da nossa equipe! Oferecemos oportunidade de crescimento em uma rede gastronômica tradicional.</p>
+  <p><strong>Salário:</strong> R$ 2.715,00 (Salário base da categoria).</p>
+  <p><strong>Horário:</strong> Não informado.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Refeição na empresa, Vale transporte, Assistência médica e Wellhub (Gympass).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511932992046?text=Tenho%20interesse%20na%20vaga%20de%20Aux%20Empacotamento" target="_blank">+55 11 93299-2046</a><br>
+    Site: <a href="https://trabalheconosco.almanara.app.br/" target="_blank">trabalheconosco.almanara.app.br</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar agilidade manual, atenção aos detalhes e compromisso com os padrões de qualidade da marca.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Copeiro(a) - Salão</strong></h3>
+  <p><strong>Empresa:</strong> Almanara</p>
+  <p><strong>Descrição da vaga:</strong> Atuar no suporte ao salão. Oferecemos remuneração variável através de gorjetas.</p>
+  <p><strong>Salário:</strong> R$ 1.804,00 + Gorjetas.</p>
+  <p><strong>Horário:</strong> Não informado.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Oportunidade de crescimento, Refeição na empresa, Vale transporte, Assistência médica e Wellhub (Gympass).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511932992046?text=Tenho%20interesse%20na%20vaga%20de%20Copeiro" target="_blank">+55 11 93299-2046</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Possuir excelente postura profissional, cordialidade no atendimento e agilidade no suporte aos garçons.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Ajudante de Cozinha</strong></h3>
+  <p><strong>Empresa:</strong> Almanara</p>
+  <p><strong>Descrição da vaga:</strong> Suporte na preparação de alimentos e organização da cozinha. Vagas específicas para determinadas unidades.</p>
+  <p><strong>Salário:</strong> R$ 1.804,00</p>
+  <p><strong>Horário:</strong> Não informado.</p>
+  <p><strong>Local:</strong> Borba Gato e Santana - SP</p>
+  <p><strong>Benefícios:</strong> Assistência médica, Refeição na empresa, Vale transporte e Wellhub (Gympass).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511932992046?text=Tenho%20interesse%20na%20vaga%20de%20Ajudante%20de%20Cozinha" target="_blank">+55 11 93299-2046</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar disposição para aprender os processos da cozinha árabe e manter a organização do ambiente de trabalho.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Aprendiz de Cozinha</strong></h3>
+  <p><strong>Empresa:</strong> Almanara</p>
+  <p><strong>Descrição da vaga:</strong> Programa de aprendizagem para jovens entre 16 e 18 anos. Necessário estar estudando à noite ou ter concluído o Ensino Médio.</p>
+  <p><strong>Salário:</strong> R$ 1.230,00 (Salário mínimo/hora).</p>
+  <p><strong>Horário:</strong> Disponibilidade para trabalhar pela manhã.</p>
+  <p><strong>Local:</strong> Diversas unidades (Shopping Morumbi, Paulista, Anália Franco, etc.)</p>
+  <p><strong>Benefícios:</strong> Refeição, VT, Uniforme, Assistência médica, Curso profissionalizante e Wellhub.</p>
+  <p><strong>Contato:</strong><br>
+    Entrevistas presenciais: Av. Vieira de Carvalho, 115 - República (Dias 02/03, 06/03 ou 11/03 às 9h00).
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Mostrar entusiasmo pela área de gastronomia e pontualidade para as etapas presenciais de seleção.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Líder de Recepção - Laboratório</strong></h3>
+  <p><strong>Empresa:</strong> Parceria</p>
+  <p><strong>Descrição da vaga:</strong> Supervisionar equipe de recepção, coordenar atividades diárias, treinar colaboradores e garantir eficiência operacional em ambiente laboratorial.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> Seg. à Sáb. das 6:00h às 13:00h.</p>
+  <p><strong>Local:</strong> Itaquera - SP</p>
+  <p><strong>Benefícios:</strong> Não informados.</p>
+  <p><strong>Contato:</strong><br>
+    Email: <a href="mailto:oportunidade@rhparceria.com.br">oportunidade@rhparceria.com.br</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Comprovar experiência prévia em liderança no setor de saúde (laboratórios ou hospitais) e excelentes habilidades de comunicação.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Assistente de Reservas</strong></h3>
+  <p><strong>Empresa:</strong> Hotel Fênix (via Talentflix)</p>
+  <p><strong>Descrição da vaga:</strong> Realizar atendimento e inserção de reservas no sistema PMS/GDS, apoiar gestão de grupos e contribuir com estratégias de ocupação.</p>
+  <p><strong>Salário:</strong> Negociável.</p>
+  <p><strong>Horário:</strong> Seg. a Sex. das 8h às 17h, Sáb. das 8h às 12h.</p>
+  <p><strong>Local:</strong> Ribeirão Preto/SP</p>
+  <p><strong>Benefícios:</strong> Plano de saúde, Vale-refeição e Vale-transporte.</p>
+  <p><strong>Contato:</strong><br>
+    Email: <a href="mailto:rh@talentflix.co">rh@talentflix.co</a><br>
+    Telefone: (81) 8982-2841
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Possuir ensino superior completo e domínio das ferramentas Omnibees ou similares, além de foco total em resultados hoteleiros.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Operador(a) de Caixa</strong></h3>
+  <p><strong>Empresa:</strong> Varejo (Vila Mariana)</p>
+  <p><strong>Descrição da vaga:</strong> Atuar como caixa em loja de varejo. É necessário possuir experiência comprovada na área.</p>
+  <p><strong>Salário:</strong> R$ 2.100,00.</p>
+  <p><strong>Horário:</strong> Segunda a sexta, das 10h35 às 19h; sábados, das 9h às 15h.</p>
+  <p><strong>Local:</strong> Vila Mariana - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Vale Transporte e Benefícios.</p>
+  <p><strong>Contato:</strong><br>
+    E-mail: <a href="mailto:fernandocostajung@gmail.com">fernandocostajung@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar agilidade no atendimento e precisão no fechamento de caixa.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Aj. de Cozinha / Aux. de Limpeza / Atendente</strong></h3>
+  <p><strong>Empresa:</strong> Ricardo (Particular)</p>
+  <p><strong>Descrição da vaga:</strong> Vagas abertas para diversas funções operacionais em escala 6x1 com um domingo de folga no mês.</p>
+  <p><strong>Salário:</strong> R$ 2.100,00.</p>
+  <p><strong>Horário:</strong> Escala 6x1.</p>
+  <p><strong>Local:</strong> São Paulo/SP (Consultar via contato)</p>
+  <p><strong>Benefícios:</strong> Vale Refeição (R$ 650,00), VA de até R$ 126,00 (assiduidade) e Cartão farmácia (R$ 350,00).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511999789946?text=Tenho%20interesse%20na%20vaga%20anunciada" target="_blank">+55 11 99978-9946 (Ricardo)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar comprometimento com a escala de trabalho e foco em assiduidade para garantir os benefícios extras.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Estágio em Odontologia</strong></h3>
+  <p><strong>Empresa:</strong> Consultoria RH (Vinicius)</p>
+  <p><strong>Descrição da vaga:</strong> Destinado a estudantes de Odontologia. Requisito: estar cursando entre o 4º e o 8º semestre.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> A combinar.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Não informados.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5516997783080?text=Tenho%20interesse%20na%20vaga%20de%20Estágio%20em%20Odontologia" target="_blank">+55 16 99778-3080</a><br>
+    E-mail: <a href="mailto:vinicius.consultorrh@gmail.com">vinicius.consultorrh@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar proatividade, agilidade e boa comunicação interpessoal.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Técnico em Secretária</strong></h3>
+  <p><strong>Empresa:</strong> Consultoria RH (Vinicius)</p>
+  <p><strong>Descrição da vaga:</strong> Necessário estar cursando Técnico em Administração. Vaga exige disponibilidade para finais de semana em caso de demandas.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> Escala 5x2.</p>
+  <p><strong>Local:</strong> Interlagos - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Não informados.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5516997783080?text=Tenho%20interesse%20na%20vaga%20de%20Técnico%20em%20Secretária" target="_blank">+55 16 99778-3080</a><br>
+    E-mail: <a href="mailto:vinicius.consultorrh@gmail.com">vinicius.consultorrh@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Mostrar flexibilidade de horário e organização para lidar com demandas administrativas técnicas.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Limpeza</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Atuação na região de Taboão da Serra. Oportunidade com foco em manutenção e conservação de ambientes.</p>
+  <p><strong>Salário:</strong> R$ 1.837,40.</p>
+  <p><strong>Horário:</strong> 13h40 às 22h (Escala 6x1).</p>
+  <p><strong>Local:</strong> Taboão da Serra/SP</p>
+  <p><strong>Benefícios:</strong> VT, VA (R$ 151,91), VR (R$ 21,80/dia), Bônus Assiduidade (R$ 315,00) e Salário Família (R$ 65,00 por criança até 14 anos).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511914436072?text=Tenho%20interesse%20na%20vaga%20de%20Auxiliar%20de%20Limpeza" target="_blank">+55 11 91443-6072</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar comprometimento com a escala e pontualidade para garantir o bônus de assiduidade.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Atendente / Balconista</strong></h3>
+  <p><strong>Empresa:</strong> Padaria (Vila Industrial)</p>
+  <p><strong>Descrição da vaga:</strong> Atendimento ao público e serviços de balcão. Necessário possuir experiência prévia na função.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> Turnos manhã e tarde.</p>
+  <p><strong>Local:</strong> Rua Altamisa, 96 – Vila Industrial – São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Preferência para candidatos que residam próximo ao local.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511919102022?text=Tenho%20interesse%20na%20vaga%20de%20Atendente%20Balconista" target="_blank">+55 11 91910-2022</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar agilidade no atendimento e facilidade de comunicação com o cliente.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>SDR (Pré-vendas)</strong></h3>
+  <p><strong>Empresa:</strong> K4 Brands</p>
+  <p><strong>Descrição da vaga:</strong> Atuar com prospecção, qualificação de leads e agendamento de reuniões. Modelo 100% comissionado com foco em alta performance. Necessário possuir computador próprio e internet estável.</p>
+  <p><strong>Salário:</strong> 100% comissionado (10% por contrato fechado).</p>
+  <p><strong>Horário:</strong> Atuação diária (Horário comercial).</p>
+  <p><strong>Local:</strong> Híbrido (Santo André - Shopping Atrium / Home Office)</p>
+  <p><strong>Benefícios:</strong> Possibilidade real de altos ganhos e flexibilidade do trabalho híbrido.</p>
+  <p><strong>Contato:</strong><br>
+    E-mail: <a href="mailto:contato@k4brands.com.br?subject=SDR">contato@k4brands.com.br</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar perfil persuasivo, organização com a rotina de prospecção e experiência prévia na função.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Limpeza</strong></h3>
+  <p><strong>Empresa:</strong> Condomínio Residencial (via Guilherme)</p>
+  <p><strong>Descrição da vaga:</strong> Início imediato para atuação em condomínios. Requisitos: experiência na área, idade acima de 35 anos e residir próximo às regiões de atendimento.</p>
+  <p><strong>Salário:</strong> R$ 1.805,43.</p>
+  <p><strong>Horário:</strong> Seg. a sex. das 08h às 17h / Sáb. das 08h às 12h (Escala 6x1).</p>
+  <p><strong>Local:</strong> Freguesia do Ó e Liberdade - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> VT (R$ 290,00), VR (R$ 650,75) e VA (R$ 205,91).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511974542546?text=Tenho%20interesse%20na%20vaga%20de%20Auxiliar%20de%20Limpeza%20para%20Condomínio" target="_blank">+55 11 97454-2546 (Somente mensagens)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar facilidade com trabalho em equipe e agilidade para início imediato.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Diversas Vagas - Restaurante Árabe</strong></h3>
+  <p><strong>Empresa:</strong> Laziza Restaurante</p>
+  <p><strong>Descrição da vaga:</strong> Vagas para Auxiliar de Cozinha, Auxiliar de Cozinha (Pia), Cozinheiro, Atendente/Garçom, Gerente e Auxiliar de Limpeza. Ambiente organizado e equipe excelente.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> Turnos manhã e noite (Escala 6x1 - terça a domingo).</p>
+  <p><strong>Local:</strong> Vila Clementino - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Cesta básica, Vale-transporte e porcentagem de gorjetas.</p>
+  <p><strong>Contato:</strong><br>
+    E-mail: <a href="mailto:izabelcarvalhoeduardo@gmail.com">izabelcarvalhoeduardo@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar agilidade e boa vontade para trabalhar em equipe em um ambiente dinâmico de restaurante.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Pedreiro (Temporário)</strong></h3>
+  <p><strong>Empresa:</strong> Jund Empregos (Grande porte)</p>
+  <p><strong>Descrição da vaga:</strong> Executar trabalhos de alvenaria em construção civil. Necessário ensino fundamental completo, experiência anterior e disponibilidade para viagens.</p>
+  <p><strong>Salário:</strong> R$ 2.664,00.</p>
+  <p><strong>Horário:</strong> Seg. a sex. das 7h às 17h e Sáb. das 8h às 12h.</p>
+  <p><strong>Local:</strong> São Paulo, Jundiaí e região</p>
+  <p><strong>Benefícios:</strong> Vale Transporte e Alimentação fornecida pela empresa.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511989753480?text=Tenho%20interesse%20na%20vaga%20de%20Pedreiro" target="_blank">+55 11 98975-3480</a><br>
+    E-mail: <a href="mailto:vagas@jundempregos.com.br">vagas@jundempregos.com.br</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar solidez técnica em alvenaria e total disponibilidade para os deslocamentos solicitados.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Pizzaiolo / Ajudante / Atendente</strong></h3>
+  <p><strong>Empresa:</strong> Pizzaria (via Bruna)</p>
+  <p><strong>Descrição da vaga:</strong> Vagas fixas com registro em carteira. Preferência por candidatos que residam perto ou tenham fácil acesso ao centro.</p>
+  <p><strong>Salário:</strong> A combinar.</p>
+  <p><strong>Horário:</strong> Noturno (Variável entre 17:00 e 02:30 dependendo do dia).</p>
+  <p><strong>Local:</strong> Consolação - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> 1 folga semanal + 1 domingo por mês, VT, refeição no local e gorjeta.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511947235898?text=Tenho%20interesse%20na%20vaga%20da%20Pizzaria" target="_blank">+55 11 94723-5898 (Bruna)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar experiência específica em pizzaria e agilidade no atendimento sob pressão.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Técnico de Infraestrutura</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Manutenções preventivas e corretivas em sistemas elétricos, painéis, no-breaks, geradores e baterias. Necessário formação técnica em Elétrica ou áreas correlatas e experiência em campo.</p>
+  <p><strong>Salário:</strong> Não informado + PLR.</p>
+  <p><strong>Horário:</strong> Disponibilidade para deslocamentos.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> VR/VA (R$ 1.089,50), Convênio Médico/Odonto, Incentivo à graduação e Day Off no aniversário.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5534999602189?text=Tenho%20interesse%20na%20vaga%20de%20Técnico%20de%20Infraestrutura" target="_blank">+55 34 99960-2189</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar conhecimento em SPDA e experiência técnica sólida com Grupo Motor Gerador (GMG).
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Recepcionista</strong></h3>
+  <p><strong>Empresa:</strong> Sorria Tucuruvi</p>
+  <p><strong>Descrição da vaga:</strong> Atendimento presencial e WhatsApp, agendamentos e suporte administrativo. Desejável experiência na área da saúde e residir na região.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> A combinar.</p>
+  <p><strong>Local:</strong> Tucuruvi - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Ambiente acolhedor e oportunidade de crescimento profissional.</p>
+  <p><strong>Contato:</strong><br>
+    E-mail: <a href="mailto:sap.sorriatucuruvi@gmail.com">sap.sorriatucuruvi@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Mostrar proatividade e excelente organização com a agenda de pacientes.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Atendimento Comercial</strong></h3>
+  <p><strong>Empresa:</strong> Clínica (Zona Sul)</p>
+  <p><strong>Descrição da vaga:</strong> Atuar na área comercial da clínica. Vaga voltada para quem busca crescimento e melhores ganhos financeiros (CLT).</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> A combinar.</p>
+  <p><strong>Local:</strong> Zona Sul - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Registro CLT e plano de carreira.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511932902844?text=Tenho%20interesse%20na%20vaga%20Comercial" target="_blank">+55 11 93290-2844</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar forte veia comercial e foco total em metas de conversão de clientes.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Vendedor Trainee (Formação)</strong></h3>
+  <p><strong>Empresa:</strong> Grupo Viamar</p>
+  <p><strong>Descrição da vaga:</strong> Programa de formação para o mercado automotivo. Exige CNH válida e experiência mínima de 3 anos em vendas (qualquer segmento).</p>
+  <p><strong>Salário:</strong> R$ 3.008,00 (Garantidos durante o treinamento).</p>
+  <p><strong>Horário:</strong> Jornada 6x1.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Convênio Médico/Odonto (SulAmérica), VT e parcerias com faculdades.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511962662448?text=Tenho%20interesse%20na%20vaga%20de%20Vendedor%20Trainee" target="_blank">+55 11 96266-2448</a><br>
+    E-mail: <a href="mailto:isaura.castaldi@viamar.com.br">isaura.castaldi@viamar.com.br</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar alta iniciativa e vontade de evoluir em um plano de carreira técnico e comercial estruturado.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Cozinha / Cozinheiro / Atendente / Outros</strong></h3>
+  <p><strong>Empresa:</strong> Laziza Restaurante</p>
+  <p><strong>Descrição da vaga:</strong> Vagas abertas para Auxiliar de Cozinha (Geral e Pia), Cozinheiro, Atendente/Garçom, Gerente e Auxiliar de Limpeza. Equipe organizada e excelente ambiente.</p>
+  <p><strong>Salário:</strong> A consultar.</p>
+  <p><strong>Horário:</strong> Turnos manhã e noite (Escala 6x1 - Terça a Domingo).</p>
+  <p><strong>Local:</strong> Vila Clementino - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Cesta básica, Vale-transporte e % de gorjetas.</p>
+  <p><strong>Contato:</strong><br>
+    E-mail: <a href="mailto:izabelcarvalhoeduardo@gmail.com">izabelcarvalhoeduardo@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar agilidade e comprometimento com os horários, especialmente para os turnos noturnos.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Pedreiro</strong></h3>
+  <p><strong>Empresa:</strong> Jund Empregos</p>
+  <p><strong>Descrição da vaga:</strong> Executar trabalhos de alvenaria em geral. Necessário ensino fundamental completo, experiência anterior e disponibilidade para viagens.</p>
+  <p><strong>Salário:</strong> R$ 2.664,00.</p>
+  <p><strong>Horário:</strong> Segunda a sexta das 7h às 17h e Sábados das 8h às 12h.</p>
+  <p><strong>Local:</strong> São Paulo, Jundiaí e região.</p>
+  <p><strong>Benefícios:</strong> Vale Transporte e Alimentação fornecida pela empresa.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511989753480?text=Tenho%20interesse%20na%20vaga%20de%20Pedreiro" target="_blank">+55 11 98975-3480</a><br>
+    E-mail: <a href="mailto:vagas@jundempregos.com.br">vagas@jundempregos.com.br</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Possuir referências de trabalhos anteriores e disponibilidade imediata para início.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Ajudante de Pizzaiolo / Atendente / Pizzaiolo</strong></h3>
+  <p><strong>Empresa:</strong> Pizzaria (Fixo)</p>
+  <p><strong>Descrição da vaga:</strong> Atuar em pizzaria no centro de SP. Necessário ter fácil acesso à região da Consolação.</p>
+  <p><strong>Salário:</strong> A combinar.</p>
+  <p><strong>Horário:</strong> Período noturno (vários horários a partir das 17h/18h).</p>
+  <p><strong>Local:</strong> Consolação (Centro) - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Registro CLT, 1 folga semanal + 1 domingo por mês, VT, refeição no local e gorjeta.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511947235898?text=Tenho%20interesse%20na%20vaga%20da%20Pizzaria" target="_blank">+55 11 94723-5898 (Falar com Bruna)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar experiência em atendimento noturno e agilidade em pizzarias de alto volume.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Técnico de Infraestrutura – Manutenção Field</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Manutenções preventivas e corretivas em instalações elétricas, painéis, no-breaks e geradores. Necessária formação técnica em elétrica ou correlatas e experiência em campo.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> Comercial com disponibilidade para deslocamentos.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> VR/VA (R$ 1.089,50), Convênio Médico/Odonto, PLR, Seguro de Vida, Wellhub e Day Off no aniversário.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5534999602189?text=Tenho%20interesse%20na%20vaga%20de%20Técnico%20de%20Infraestrutura" target="_blank">+55 34 99960-2189</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Enfatizar conhecimentos específicos em GMG (Grupo Motor Gerador) e sistemas de alarmes USCA.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Recepcionista</strong></h3>
+  <p><strong>Empresa:</strong> Clínica Odontológica (Sorria Tucuruvi)</p>
+  <p><strong>Descrição da vaga:</strong> Atendimento presencial e WhatsApp, agendamentos e suporte administrativo. Diferencial: experiência na área da saúde.</p>
+  <p><strong>Salário:</strong> A consultar.</p>
+  <p><strong>Horário:</strong> Não informado.</p>
+  <p><strong>Local:</strong> Tucuruvi - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Ambiente organizado e oportunidade de crescimento.</p>
+  <p><strong>Contato:</strong><br>
+    E-mail: <a href="mailto:sap.sorriatucuruvi@gmail.com">sap.sorriatucuruvi@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Possuir residência próxima à região e demonstrar excelente comunicação escrita para atendimento via WhatsApp.
+  </div>
+</div>
+
+
+<div class="vaga">
+  <h3><strong>Atendimento Comercial</strong></h3>
+  <p><strong>Empresa:</strong> Clínica (Confidencial)</p>
+  <p><strong>Descrição da vaga:</strong> Atuar na área comercial de uma clínica. Vaga voltada para candidatas com foco em crescimento profissional e busca por melhores ganhos.</p>
+  <p><strong>Salário:</strong> Registro CLT (Valor a combinar).</p>
+  <p><strong>Horário:</strong> Não informado.</p>
+  <p><strong>Local:</strong> Zona Sul - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Registro CLT e plano de crescimento.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511932902844?text=Tenho%20interesse%20na%20vaga%20da%20Área%20Comercial" target="_blank">+55 11 93290-2844</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar perfil agressivo em vendas e experiência anterior com fechamento de contratos em clínicas.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Limpeza (Masculino)</strong></h3>
+  <p><strong>Empresa:</strong> Invicta Serviços</p>
+  <p><strong>Descrição da vaga:</strong> Atuar na unidade Smart Fit Brooklin. Necessário disponibilidade para início urgente.</p>
+  <p><strong>Salário:</strong> R$ 2.560,00.</p>
+  <p><strong>Horário:</strong> 14h00 às 22h30.</p>
+  <p><strong>Local:</strong> Brooklin (Zona Sul) - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> VR (R$ 880,00) e Vale Transporte.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511949070253?text=Tenho%20interesse%20na%20vaga%20de%20Auxiliar%20de%20Limpeza%20Brooklin" target="_blank">+55 11 94907-0253</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar disposição para o trabalho físico e facilidade de acesso à região do Brooklin.
+  </div>
+</div>
+
+
+<div class="vaga">
+  <h3><strong>Assistente Comercial (Recepção)</strong></h3>
+  <p><strong>Empresa:</strong> Clínica Estética (Zona Norte)</p>
+  <p><strong>Descrição da vaga:</strong> Atuação na recepção com foco em geração de negócios: contato com leads, agendamentos, prospecção e atendimento presencial. Diferencial: vivência em clínicas estéticas.</p>
+  <p><strong>Salário:</strong> Ganhos médios R$ 2.700,00 a R$ 3.300,00 (Fixo + Bonificações).</p>
+  <p><strong>Horário:</strong> Seg. a Sex. das 9h às 18h | Sáb. das 9h às 13h.</p>
+  <p><strong>Local:</strong> Zona Norte - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Bonificações por desempenho e registro CLT.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511953822358?text=INTERESSE" target="_blank">+55 11 95382-2358</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar perfil comunicativo, persuasivo e facilidade com redes sociais (WhatsApp/Instagram).
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Ajudante de Cozinha</strong></h3>
+  <p><strong>Empresa:</strong> Restaurante Fast-food</p>
+  <p><strong>Descrição da vaga:</strong> Atuar com lavagem de pratos, fritadeira, montagem de pratos e chapa. Há plano de carreira disponível.</p>
+  <p><strong>Salário:</strong> R$ 1.900,00.</p>
+  <p><strong>Horário:</strong> 12h00 às 20h20 (Escala 6x1).</p>
+  <p><strong>Local:</strong> Shopping Bourbon (Perdizes) - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Cesta básica (R$ 60,00) e Auxílio Uniforme (R$ 78,20).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511959037009?text=Tenho%20interesse%20na%20vaga%20de%20Ajudante%20de%20Cozinha%20Bourbon" target="_blank">+55 11 95903-7009</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar agilidade operacional e interesse em crescer dentro da hierarquia da cozinha.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Teleatendimento</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Atendimento a chamadas para tirar dúvidas e prestar orientações. Pode ser primeiro emprego (não exige experiência). Requisito: Ensino Médio completo e +18 anos.</p>
+  <p><strong>Salário:</strong> R$ 1.621,00.</p>
+  <p><strong>Horário:</strong> Segunda a Sábado, das 14h20 às 20h40.</p>
+  <p><strong>Local:</strong> Alphaville Industrial - Barueri/SP</p>
+  <p><strong>Benefícios:</strong> VT (em dinheiro), VR ou VA, Convênio Médico/Odonto, Auxílio Creche e Plano de Carreira.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511973118267?text=Tenho%20interesse%20na%20vaga%20de%20Teleatendimento%20Barueri" target="_blank">+55 11 97311-8267</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar boa dicção, paciência e rapidez no registro de informações em sistemas.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Limpeza (Início Imediato)</strong></h3>
+  <p><strong>Empresa:</strong> Condomínio (via Guilherme)</p>
+  <p><strong>Descrição da vaga:</strong> Vagas Masculinas e Femininas. Requisitos: experiência em condomínios, ter mais de 35 anos e morar próximo às regiões.</p>
+  <p><strong>Salário:</strong> R$ 1.805,43.</p>
+  <p><strong>Horário:</strong> Seg. a sex. das 08h às 17h / Sáb. das 08h às 12h (Escala 6x1).</p>
+  <p><strong>Local:</strong> Freguesia do Ó e Liberdade - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> VT (R$ 290,00), VR (R$ 650,75) e VA (R$ 205,91).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511974542546?text=Tenho%20interesse%20na%20vaga%20de%20Auxiliar%20de%20Limpeza%20Condomínio" target="_blank">+55 11 97454-2546 (Apenas mensagens)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar maturidade, estabilidade em empregos anteriores e facilidade com trabalho em equipe.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Consultor(a) de Vendas Ativas</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Vendas ativas 100% presenciais. Necessário experiência com vendas, Ensino Médio completo e idade mínima de 18 anos.</p>
+  <p><strong>Salário:</strong> R$ 1.625,28 + bônus por desempenho.</p>
+  <p><strong>Horário:</strong> Segunda a sexta-feira, das 9h às 17h12.</p>
+  <p><strong>Local:</strong> Ipiranga - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Vale-Refeição (R$ 20,84/dia), VT e Parceria educacional com a ETEP.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511982362460?text=Tenho%20interesse%20na%20vaga%20de%20Vendas%20Ipiranga" target="_blank">+55 11 98236-2460</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Mostrar proatividade e interesse genuíno em utilizar o apoio aos estudos para evoluir na carreira.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Atendente</strong></h3>
+  <p><strong>Empresa:</strong> Firehouse Subs</p>
+  <p><strong>Descrição da vaga:</strong> Atendimento ao cliente, preparação de produtos e organização da loja. Marca nova no Brasil com trilha estruturada de carreira.</p>
+  <p><strong>Salário:</strong> R$ 1.800,00.</p>
+  <p><strong>Horário:</strong> Escala 6x1 (inclui finais de semana).</p>
+  <p><strong>Local:</strong> Zona Leste e Paulista - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Plano de saúde, Refeição no local, Seguro de Vida, PPR semestral, Parceria Sesc e Plataforma Academia.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5521981887715?text=Tenho%20interesse%20na%20vaga%20de%20Atendente%20Firehouse" target="_blank">+55 21 98188-7715</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar entusiasmo com a chegada da marca ao país e foco em excelência no atendimento ao cliente.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Vendas</strong></h3>
+  <p><strong>Empresa:</strong> Manpower</p>
+  <p><strong>Descrição da vaga:</strong> Apoio aos vendedores no atendimento presencial e telefônico, emissão de propostas, cadastro de clientes e organização de showroom no setor automotivo.</p>
+  <p><strong>Salário:</strong> R$ 1.701,00.</p>
+  <p><strong>Horário:</strong> Seg. a sex. das 08h às 18h e sáb. das 09h às 13h.</p>
+  <p><strong>Local:</strong> Jabaquara - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Cesta básica, Plano de saúde (100% titular), Plano odontológico e Vale-refeição (R$ 25,71/dia).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511992469227?text=Tenho%20interesse%20na%20vaga%20de%20Auxiliar%20de%20Vendas%20Jabaquara" target="_blank">+55 11 99246-9227</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar organização com documentos comerciais e proatividade no suporte à equipe de vendas.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Atendente de Negócios</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Atuação ativa em vendas. Perfil desejado: idade entre 19 e 28 anos. Foco em resultados e metas mensais.</p>
+  <p><strong>Salário:</strong> Fixo + Comissão (pode chegar a 20% do valor total de vendas).</p>
+  <p><strong>Horário:</strong> Segunda a sexta das 08h40 às 17h35 e Sábado das 09h às 13h.</p>
+  <p><strong>Local:</strong> Santo André - Grande ABC/SP</p>
+  <p><strong>Benefícios:</strong> Cartão corporativo (Bene), Convênio farmácia, cafeteria e médico, Parceria SESC e Vale transporte.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511948414040?text=Tenho%20interesse%20na%20vaga%20de%20Atendente%20de%20Negócios" target="_blank">+55 11 94841-4040</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar perfil ambicioso e excelente fluidez na comunicação para vendas por telefone.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Operador de Cobrança</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Atendimento presencial para notificação e negociação de pendências financeiras (call-center). Requisitos: +18 anos, Ensino Médio completo e 6 meses de experiência.</p>
+  <p><strong>Salário:</strong> R$ 1.704,24 + Comissão variável (sem teto).</p>
+  <p><strong>Horário:</strong> Seg. a sex. das 14h20 às 20h40 e Sáb. das 08h às 14h20 (Escala 6x1).</p>
+  <p><strong>Local:</strong> Consolação (Próximo ao Metrô Anhangabaú) - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> VT (R$ 17,80/dia no cartão) e VR (R$ 18,94/dia).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511990219790?text=Tenho%20interesse%20na%20vaga%20de%20Operador%20de%20Cobrança" target="_blank">+55 11 99021-9790</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar alto poder de persuasão e resiliência para lidar com negociações de dívidas.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Auxiliar de Serviços Gerais (Feminino)</strong></h3>
+  <p><strong>Empresa:</strong> Não informada</p>
+  <p><strong>Descrição da vaga:</strong> Início imediato. Vaga exclusiva para mulheres com experiência comprovada na área de limpeza. Preferência para quem reside próximo.</p>
+  <p><strong>Salário:</strong> R$ 1.699,23.</p>
+  <p><strong>Horário:</strong> Seg. a sex. 9h às 18h e Fim de semana 9h às 13h (Folga: todas as terças e os 2 primeiros domingos do mês).</p>
+  <p><strong>Local:</strong> Av. Sumaré, 1529 - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Vale Refeição (R$ 24,50 por plantão), Cesta Básica (produtos) e Vale Transporte.</p>
+  <p><strong>Contato:</strong><br>
+    Telefone: <a href="tel:+551143276678">(11) 4327-6678</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar ser caprichosa, organizada e possuir referências sólidas em carteira.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Aj. de Cozinha / Aux. de Limpeza / Atendente</strong></h3>
+  <p><strong>Empresa:</strong> Ricardo (Particular)</p>
+  <p><strong>Descrição da vaga:</strong> Vagas para diversas funções operacionais. Necessário disponibilidade para escala 6x1 com um domingo de folga no mês.</p>
+  <p><strong>Salário:</strong> R$ 2.100,00.</p>
+  <p><strong>Horário:</strong> Escala 6x1.</p>
+  <p><strong>Local:</strong> São Paulo/SP (Consultar via contato)</p>
+  <p><strong>Benefícios:</strong> Vale Refeição (R$ 650,00), VA de até R$ 126,00 (assiduidade) e Cartão farmácia (R$ 350,00).</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5511999789946?text=Tenho%20interesse%20na%20vaga%20anunciada" target="_blank">+55 11 99978-9946 (Ricardo)</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar comprometimento e foco em assiduidade para garantir o recebimento integral dos benefícios extras.
+  </div>
+</div>
+
+
+<div class="vaga">
+  <h3><strong>Estágio em Odontologia</strong></h3>
+  <p><strong>Empresa:</strong> Consultoria RH (Vinicius)</p>
+  <p><strong>Descrição da vaga:</strong> Destinado a estudantes de Odontologia. Requisito: estar cursando entre o 4º e o 8º semestre da graduação.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> A combinar.</p>
+  <p><strong>Local:</strong> São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Não informados.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5516997783080?text=Tenho%20interesse%20na%20vaga%20de%20Estágio%20em%20Odontologia" target="_blank">+55 16 99778-3080</a><br>
+    E-mail: <a href="mailto:vinicius.consultorrh@gmail.com">vinicius.consultorrh@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Demonstrar proatividade, agilidade técnica e facilidade no atendimento clínico.
+  </div>
+</div>
+
+<div class="vaga">
+  <h3><strong>Técnico em Secretária</strong></h3>
+  <p><strong>Empresa:</strong> Consultoria RH (Vinicius)</p>
+  <p><strong>Descrição da vaga:</strong> Necessário estar cursando Técnico em Administração. Vaga exige disponibilidade para eventuais demandas em finais de semana.</p>
+  <p><strong>Salário:</strong> Não informado.</p>
+  <p><strong>Horário:</strong> Escala 5x2.</p>
+  <p><strong>Local:</strong> Interlagos - São Paulo/SP</p>
+  <p><strong>Benefícios:</strong> Não informados.</p>
+  <p><strong>Contato:</strong><br>
+    WhatsApp: <a href="https://wa.me/5516997783080?text=Tenho%20interesse%20na%20vaga%20de%20Técnico%20em%20Secretária" target="_blank">+55 16 99778-3080</a><br>
+    E-mail: <a href="mailto:vinicius.consultorrh@gmail.com">vinicius.consultorrh@gmail.com</a>
+  </p>
+  <div class="como-se-destacar">
+    <strong>Como se destacar:</strong> Mostrar organização administrativa e flexibilidade para atuar na região de Interlagos.
+  </div>
+</div>
+
+
+      </div>
+  </main>
+
+  <footer>
+    <p>© 2026 ConectaTrampo SP<br>
+    Organizando as melhores oportunidades da capital e região metropolitana.</p>
+  </footer>
+
+  <script>
+    const inputBusca = document.getElementById("busca-vagas");
+    inputBusca.addEventListener("input", () => {
+      const termo = inputBusca.value.toLowerCase();
+      const vagas = document.querySelectorAll(".vaga-card");
+      vagas.forEach(vaga => {
+        vaga.style.display = vaga.textContent.toLowerCase().includes(termo) ? "block" : "none";
+      });
+    });
+  </script>
+
+</body>
+</html>
